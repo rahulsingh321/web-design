@@ -8,12 +8,14 @@
   }
 }
 
-/*
-
-@layer components {
-  .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
-  }
+.text-align-straight {
+  writing-mode: tb;
+  rotate: 180deg;
 }
 
-*/
+@media (max-width: 576px) {
+  .text-align-straight {
+    writing-mode: horizontal-tb !important;
+    rotate: none !important;
+  }
+}
