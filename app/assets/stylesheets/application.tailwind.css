@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.show-dropdown:hover {
+  .show {
+    display: block !important;
+  }
+}
+
 /*
 
 @layer components {
